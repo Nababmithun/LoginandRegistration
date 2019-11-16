@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.etl.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:5:5-22:19
+12        android:allowBackup="true"
+12-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.etl.myapplication.skipActivity" />
+21-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:12:9-59
+21-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:12:19-47
+22        <activity android:name="com.etl.myapplication.MainActivity" />
+22-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:13:9-50
+22-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:13:19-47
+23        <activity android:name="com.etl.myapplication.LoginActivity" />
+23-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:14:9-51
+23-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:14:19-48
+24        <activity android:name="com.etl.myapplication.SplashScreen" >
+24-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:15:9-21:20
+24-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:15:19-47
+25            <intent-filter>
+25-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:17:17-69
+26-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:19:17-77
+28-->E:\DailyNote-master\MyApplication\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:20:9-189
+32            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+32-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:20:19-68
+33            android:excludeFromRecents="true"
+33-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:20:129-162
+34            android:exported="false"
+34-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:20:163-187
+35            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+35-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:20:69-128
+36        <!--
+37Service handling Google Sign-In user revocation. For apps that do not integrate with
+38            Google Sign-In, this service will never be started.
+39        -->
+40        <service
+40-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:24:9-184
+41            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+41-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:24:18-63
+42            android:exported="true"
+42-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:24:64-87
+43            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+43-->[com.google.android.gms:play-services-auth:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\cec0eb45679e7f0247eda0e88f560705\jetified-play-services-auth-10.2.6\AndroidManifest.xml:24:88-182
+44
+45        <activity
+45-->[com.google.android.gms:play-services-base:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\a425b3d359ce834afbaf4fd840fb854a\jetified-play-services-base-10.2.6\AndroidManifest.xml:19:9-172
+46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+46-->[com.google.android.gms:play-services-base:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\a425b3d359ce834afbaf4fd840fb854a\jetified-play-services-base-10.2.6\AndroidManifest.xml:19:19-85
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-base:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\a425b3d359ce834afbaf4fd840fb854a\jetified-play-services-base-10.2.6\AndroidManifest.xml:19:146-170
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-base:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\a425b3d359ce834afbaf4fd840fb854a\jetified-play-services-base-10.2.6\AndroidManifest.xml:19:86-145
+49
+50        <meta-data
+50-->[com.google.android.gms:play-services-basement:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\a31eb6b7852001cb8deee3b21a591d1f\jetified-play-services-basement-10.2.6\AndroidManifest.xml:20:9-121
+51            android:name="com.google.android.gms.version"
+51-->[com.google.android.gms:play-services-basement:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\a31eb6b7852001cb8deee3b21a591d1f\jetified-play-services-basement-10.2.6\AndroidManifest.xml:20:20-65
+52            android:value="@integer/google_play_services_version" />
+52-->[com.google.android.gms:play-services-basement:10.2.6] C:\Users\ETL-PC\.gradle\caches\transforms-2\files-2.1\a31eb6b7852001cb8deee3b21a591d1f\jetified-play-services-basement-10.2.6\AndroidManifest.xml:20:66-119
+53    </application>
+54
+55</manifest>
